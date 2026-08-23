@@ -2,13 +2,16 @@
 #
 # Next.js frontend for headline_threads.
 #
-# Bun is used because bun.lock is the committed lockfile and package.json
-# pins `packageManager: bun@1.3.13`. Two-stage build: `deps` installs and
-# builds, `runner` runs Next in standalone mode.
+# bun.lock is the committed lockfile (package.json pins `packageManager:
+# bun@1.3.13`), so the `deps` stage installs with Bun for reproducibility.
+# However, Bun 1.3.13 crashes running `next build` on Render's build VM
+# (segfault in the Turbopack page-data step, "Expected CommonJS module to
+# have a function wrapper"), so `builder` and `runner` use Node 22 -- the
+# runtime Next.js actually targets. Only installs run under Bun.
 #
 # NEXT_PUBLIC_API_URL must be present at build time -- Next inlines these
 # variables into the compiled bundle -- so it is declared as a build arg and
-# forwarded into the environment before `bun run build`.
+# forwarded into the environment before `npm run build`.
 
 FROM oven/bun:1.3.13-slim AS deps
 
@@ -20,7 +23,7 @@ COPY package.json bun.lock ./
 RUN bun install --frozen-lockfile --ignore-scripts
 
 
-FROM oven/bun:1.3.13-slim AS builder
+FROM node:22-slim AS builder
 
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
@@ -32,10 +35,10 @@ ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-RUN bun run build
+RUN npm run build
 
 
-FROM oven/bun:1.3.13-slim AS runner
+FROM node:22-slim AS runner
 
 WORKDIR /app
 
@@ -59,4 +62,4 @@ USER nextjs
 EXPOSE 3000
 
 # Render injects $PORT. `next start -p $PORT` binds it correctly.
-CMD ["sh", "-c", "exec bun run next start -H 0.0.0.0 -p ${PORT}"]
+CMD ["sh", "-c", "exec ./node_modules/.bin/next start -H 0.0.0.0 -p ${PORT}"]
