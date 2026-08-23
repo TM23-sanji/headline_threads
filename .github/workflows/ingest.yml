@@ -1,0 +1,63 @@
+name: ingest
+
+# History cannot be backfilled from any provider (NewsData archive is paid;
+# GNews/NewsAPI cap at ~30 days), so the archive only grows if this runs.
+#
+# GitHub Actions is deliberately preferred over Render Cron (paid feature) and
+# Vercel Cron (Hobby plan allows daily only). Actions is free with arbitrary
+# schedules.
+#
+# 4x/day * 3 providers = 12 provider calls/day, comfortably inside the free
+# quotas (~100-200/day per provider). Bump `cron` only after checking limits.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # every 6h, UTC
+  workflow_dispatch:            # manual trigger
+
+# Never run more than one ingest at a time - the run is idempotent, but
+# concurrent writes to the same threads is wasted work.
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  poke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger backend ingest
+        env:
+          API_URL: ${{ vars.API_URL }}
+          INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
+        run: |
+          if [ -z "$API_URL" ] || [ -z "$INGEST_SECRET" ]; then
+            echo "::error::API_URL (repo variable) or INGEST_SECRET (repo secret) is not configured"
+            exit 1
+          fi
+
+          # Render free plan sleeps after ~15 min idle; the first request
+          # cold-starts and can take ~30-50s, so allow a long timeout.
+          http_status=$(curl \
+            --silent \
+            --show-error \
+            --output /tmp/ingest.json \
+            --write-out '%{http_code}' \
+            --max-time 180 \
+            --retry 2 \
+            --retry-delay 15 \
+            --retry-connrefused \
+            -X POST \
+            -H "X-Ingest-Secret: $INGEST_SECRET" \
+            "$API_URL/api/admin/ingest")
+
+          echo "HTTP $http_status"
+          cat /tmp/ingest.json || true
+          echo
+
+          if [ "$http_status" != "200" ]; then
+            echo "::error::ingest failed with status $http_status"
+            exit 1
+          fi

@@ -11,7 +11,6 @@ export function Navbar() {
         <nav className="flex items-center gap-4 text-xs uppercase tracking-[0.2em] text-black/60">
           <Link href="/" className="hover:text-black">Edition</Link>
           <Link href="/chains" className="hover:text-black">Chains</Link>
-          <Link href="/events" className="hover:text-black">Tracked</Link>
           <Link href="/search" className="hover:text-black">Search</Link>
         </nav>
       </div>

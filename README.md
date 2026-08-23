@@ -112,11 +112,51 @@ Relevance depends on searching *headlines*: NewsData `qInTitle` and NewsAPI
 `searchIn=title` moved on-topic results from 56% to 100% on live data, and also
 surfaced Hindi articles that a body-wide search had buried.
 
+## Deploy
+
+Both services deploy to Render as Docker web services; Neon hosts Postgres.
+`render.yaml` at the repo root is a Blueprint — importing it in the Render
+dashboard provisions both services in one step.
+
+```
+Render Blueprint  →  headline-threads-api   (backend/Dockerfile)
+                     headline-threads-web   (frontend/Dockerfile)
+Neon             →   neondb, schema `bhopal`
+GitHub Actions   →   .github/workflows/ingest.yml (scheduled ingest, every 6h)
+```
+
+**One-time setup after applying the Blueprint:**
+
+1. In the Render dashboard, fill the env vars marked `sync: false` in
+   `render.yaml`:
+   - `NEWSDATA_API_KEY`, `GNEWS_API_KEY`, `NEWS_API_KEY`, `DATABASE_URL`
+     on the API service.
+   - `CORS_ORIGINS` = the frontend service URL (Render's `fromService` only
+     exposes a bare hostname, so the scheme has to be added by hand).
+   - `NEXT_PUBLIC_API_URL` = the API service URL, on the frontend service.
+     Next inlines `NEXT_PUBLIC_*` at build time, so this must be set before
+     the first successful frontend build.
+2. Run `uv run python scripts/init_db.py` once from your machine — creates
+   the `bhopal` schema, extensions and indexes in Neon. Idempotent.
+3. In GitHub → Settings, add:
+   - Variable **`API_URL`** = `https://headline-threads-api.onrender.com`
+   - Secret **`INGEST_SECRET`** = the value Render generated for the API.
+   These wire the scheduled ingest to your backend.
+
+**Free-plan caveats worth flagging:**
+
+- Both services sleep after ~15 min idle. The first request after that
+  cold-starts in ~30–50 s. The 6-hourly ingest cron doubles as a keep-warm
+  ping for the API, but the frontend has no equivalent.
+- Free tier has no persistent disk. The `bhopal` Postgres schema is the
+  only durable storage — anything written to the container filesystem is
+  lost on redeploy, which is why event tracking is DB-backed.
+- Provider quotas (~100–200 req/day per provider) are shared across all
+  ingest runs. The default 6-hourly schedule uses ~12 calls/day.
+
 ## Known gaps
 
-- Chain matching is lexical, so a Hindi article will not link to its English
-  counterpart. A `vector` column is reserved for embeddings.
-- `/api/news` and `/api/events/*` still fetch live and use `data/events.json`;
-  they have not been migrated to Postgres.
-- No scheduler yet — ingest is run manually.
+- Chain matching is lexical, so a Hindi article will not link to its
+  English counterpart. A `vector` column is reserved for embeddings.
+- No CI (typecheck / lint / test on push).
 - `FRONTEND_DESIGN.md` documents a different project and is stale.

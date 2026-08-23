@@ -1,7 +1,5 @@
 import type {
   KeywordGenerateResponse,
-  NewspaperResponse,
-  NewsArticle,
   PaperResponse,
   Sector,
   ThreadDetail,
@@ -29,18 +27,57 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-export function fetchNewspaper(sector?: Sector) {
-  const query = sector ? `?sector=${sector}` : "";
-  return request<NewspaperResponse>(`/api/news/paper${query}`);
+// ---------------------------------------------------------------------------
+// Paper + threads (Postgres-backed)
+// ---------------------------------------------------------------------------
+
+/** Facets are multi-select, so each selected value repeats in the query string. */
+export function buildPaperQuery(
+  params: Record<string, string[] | string | undefined>,
+) {
+  const search = new URLSearchParams();
+  for (const [key, value] of Object.entries(params)) {
+    if (!value) continue;
+    if (Array.isArray(value)) {
+      value.forEach((v) => v && search.append(key, v));
+    } else {
+      search.set(key, value);
+    }
+  }
+  return search.toString();
 }
 
-export function fetchNews(sector?: Sector, q?: string) {
-  const params = new URLSearchParams();
-  if (sector) params.set("sector", sector);
-  if (q) params.set("q", q);
-  const suffix = params.toString() ? `?${params.toString()}` : "";
-  return request<{ articles: NewsArticle[]; providers: string[]; total: number }>(`/api/news${suffix}`);
+export function fetchPaper(
+  params: Record<string, string[] | string | undefined> = {},
+) {
+  const qs = buildPaperQuery(params);
+  return request<PaperResponse>(`/api/paper${qs ? `?${qs}` : ""}`);
 }
+
+export function fetchThreads(
+  params: {
+    chains_only?: boolean;
+    sector?: string;
+    status?: string;
+    language?: string;
+  } = {},
+) {
+  const search = new URLSearchParams();
+  if (params.chains_only) search.set("chains_only", "true");
+  if (params.sector) search.set("sector", params.sector);
+  if (params.status) search.set("status", params.status);
+  if (params.language) search.set("language", params.language);
+  const qs = search.toString();
+  return request<ThreadsResponse>(`/api/threads${qs ? `?${qs}` : ""}`);
+}
+
+export function fetchThread(id: string) {
+  return request<ThreadDetail>(`/api/threads/${id}`);
+}
+
+// ---------------------------------------------------------------------------
+// Tracked events (also Postgres-backed)
+// ---------------------------------------------------------------------------
 
 export function fetchEvents() {
   return request<{ events: TrackedEvent[]; total: number }>("/api/events");
@@ -73,41 +110,4 @@ export function trackEvent(payload: {
 
 export function refreshEvent(id: string) {
   return request<TrackedEvent>(`/api/events/${id}/refresh`, { method: "POST" });
-}
-
-// ---------------------------------------------------------------------------
-// Faceted paper + story chains
-// ---------------------------------------------------------------------------
-
-/** Facets are multi-select, so each selected value is repeated in the query. */
-export function buildPaperQuery(params: Record<string, string[] | string | undefined>) {
-  const search = new URLSearchParams();
-  for (const [key, value] of Object.entries(params)) {
-    if (!value) continue;
-    if (Array.isArray(value)) {
-      value.forEach((v) => v && search.append(key, v));
-    } else {
-      search.set(key, value);
-    }
-  }
-  return search.toString();
-}
-
-export function fetchPaper(params: Record<string, string[] | string | undefined> = {}) {
-  const qs = buildPaperQuery(params);
-  return request<PaperResponse>(`/api/paper${qs ? `?${qs}` : ""}`);
-}
-
-export function fetchThreads(params: { chains_only?: boolean; sector?: string; status?: string; language?: string } = {}) {
-  const search = new URLSearchParams();
-  if (params.chains_only) search.set("chains_only", "true");
-  if (params.sector) search.set("sector", params.sector);
-  if (params.status) search.set("status", params.status);
-  if (params.language) search.set("language", params.language);
-  const qs = search.toString();
-  return request<ThreadsResponse>(`/api/threads${qs ? `?${qs}` : ""}`);
-}
-
-export function fetchThread(id: string) {
-  return request<ThreadDetail>(`/api/threads/${id}`);
 }

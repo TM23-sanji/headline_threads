@@ -25,6 +25,10 @@ next-env.d.ts
 # --- runtime data ---
 backend/data/events.json
 
+# --- deploy artefacts ---
+.vercel/
+.render/
+
 # --- os / editor ---
 .DS_Store
 Thumbs.db

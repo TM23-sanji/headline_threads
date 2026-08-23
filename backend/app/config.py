@@ -24,7 +24,18 @@ class Settings(BaseSettings):
     database_url: str = Field(default="", validation_alias=AliasChoices("DATABASE_URL", "database_url"))
 
     cors_origins: str = "http://localhost:3000"
-    events_file: Path = BACKEND_DIR / "data" / "events.json"
+    # Regex applied in addition to the exact origins list. Needed because
+    # Vercel preview deploys use a per-commit hostname
+    # (e.g. https://headline-threads-git-<branch>-<team>.vercel.app).
+    cors_origin_regex: str = ""
+
+    # Rotate this before deploying. Guards POST /api/admin/ingest so a
+    # scheduled job (GitHub Actions) can trigger ingest without opening the
+    # endpoint to the public.
+    ingest_secret: str = ""
+
+    # Retained only for scripts/fetch_demo_data.py fixture output; runtime
+    # code does not touch the filesystem.
     demo_dir: Path = BACKEND_DIR / "data" / "demo"
 
     @property

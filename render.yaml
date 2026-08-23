@@ -1,0 +1,91 @@
+# Render Blueprint. `New` -> `Blueprint` -> point at this repo.
+#
+# Two services:
+#   - headline-threads-api  : FastAPI + Neon Postgres  (backend/Dockerfile)
+#   - headline-threads-web  : Next.js SSR              (frontend/Dockerfile)
+#
+# One-time setup after the blueprint is applied:
+#
+#   1. Populate the six secret env vars in the Render dashboard
+#      (marked `sync: false` below). CORS_ORIGINS and NEXT_PUBLIC_API_URL
+#      cross-reference the sibling service, so you set them after both
+#      services have URLs assigned:
+#          CORS_ORIGINS         = https://headline-threads-web.onrender.com
+#          NEXT_PUBLIC_API_URL  = https://headline-threads-api.onrender.com
+#      (Render's `fromService` only exposes the raw host without the scheme,
+#      which is not usable as either an Access-Control-Allow-Origin value or
+#      as a fetch base URL, so we set the full URL by hand.)
+#   2. From your machine, run `uv run python scripts/init_db.py` once, so the
+#      `bhopal` schema and tables are created in Neon.
+#   3. GitHub Actions cron `.github/workflows/ingest.yml` needs two repo-level
+#      values in the GitHub UI:
+#         Variables -> API_URL         = https://headline-threads-api.onrender.com
+#         Secrets   -> INGEST_SECRET   = (copy from Render env after first deploy)
+#
+# Free-plan notes:
+#   - Free instances sleep after ~15 min idle. First request cold-starts in
+#     ~30-50s. The scheduled ingest doubles as a keep-warm ping for the API.
+#   - Region `singapore` matches Neon `ap-southeast-1` so DB hops stay in-region.
+
+services:
+  # ---------------------------------------------------------------------------
+  # Backend: FastAPI on Docker
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: headline-threads-api
+    runtime: docker
+    plan: free
+    region: singapore
+    branch: main
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      # Secrets - set in the Render dashboard, never checked in.
+      - key: NEWSDATA_API_KEY
+        sync: false
+      - key: GNEWS_API_KEY
+        sync: false
+      - key: NEWS_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+
+      # Ingest guard. Render generates a strong value on first deploy.
+      # Copy the resulting value into the GitHub `INGEST_SECRET` secret so
+      # the scheduled workflow can call POST /api/admin/ingest.
+      - key: INGEST_SECRET
+        generateValue: true
+
+      # CORS: exact frontend origin. Set after both URLs are assigned.
+      - key: CORS_ORIGINS
+        sync: false
+      # Fallback regex for preview URLs (e.g. PR previews) on the same slug.
+      - key: CORS_ORIGIN_REGEX
+        value: https://headline-threads-.*\.onrender\.com
+
+      - key: PYTHONUNBUFFERED
+        value: "1"
+
+  # ---------------------------------------------------------------------------
+  # Frontend: Next.js on Docker
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: headline-threads-web
+    runtime: docker
+    plan: free
+    region: singapore
+    branch: main
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      # Baked into the client bundle at build time (Next.js only exposes
+      # NEXT_PUBLIC_* to the browser). Set to the full https:// URL of the
+      # backend service - see the setup notes at the top of this file.
+      - key: NEXT_PUBLIC_API_URL
+        sync: false
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
