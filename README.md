@@ -4,6 +4,8 @@ Bhopal/MP news monitor — newspaper-style Bhopal/MP news dashboard with **story
 pulled from three news APIs, normalized, classified by sector, keyworded, and
 grouped into chains so you can follow how a story develops over time.
 
+live link : https://headline-threads-web.onrender.com/
+
 ![The MP Gazette — newspaper edition with sector sections, progress badges and keyword chips](docs/demo.png)
 
 > Full walkthrough: [`docs/demo.mp4`](docs/demo.mp4)
