@@ -1,0 +1,180 @@
+{
+  "captured_at": "2026-08-23T09:01:27.914664+00:00",
+  "endpoint": "https://gnews.io/api/v4/search",
+  "params": {
+    "q": "Bhopal OR \"Madhya Pradesh\"",
+    "lang": "en",
+    "max": 10,
+    "apikey": "***REDACTED***"
+  },
+  "payload": {
+    "information": {
+      "realTimeArticles": {
+        "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+      }
+    },
+    "totalArticles": 34360,
+    "articles": [
+      {
+        "id": "ad8f0c3370ed0b225ce62db3987744b2",
+        "title": "Stray Cattle Disrupt Traffic On Busy Roads, Raise Accident Risk In MP's Susner",
+        "description": "Stray cattle on busy roads in Madhya Pradesh’s Susner are disrupting traffic and raising accident concerns, especially during evening hours. Residents said cattle returned after roads were cleared for a minister’s visit. Citizens have demanded regular monitoring and removal drives, while the municipal council promised to examine the issue.",
+        "content": "Susner (Madhya Pradesh): The growing presence of stray cattle on roads in Susner has become a major concern for pedestrians and motorists, particularly during the evening hours.\nLarge numbers of cattle can be seen sitting or roaming in the middle of ... [1038 chars]",
+        "url": "https://www.freepressjournal.in/indore/stray-cattle-disrupt-traffic-on-busy-roads-raise-accident-risk-in-mps-susner",
+        "image": "https://media.assettype.com/freepressjournal/2026-08-22/746eleu8/22-Aug-–-Susner-–-cattle-.jpg",
+        "publishedAt": "2026-08-22T20:38:00Z",
+        "lang": "en",
+        "source": {
+          "id": "7eeaf9a839918543cc708f2d331c3be4",
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in",
+          "country": "in"
+        }
+      },
+      {
+        "id": "ff0e7dbb32045654bc20d4f9e236f509",
+        "title": "President Murmu to present National Teachers’ Award to IISER Bhopal’s Datta on Sept 5",
+        "description": "President Droupadi Murmu to confer National Teachers’ Award HEI 2026 on IISER Bhopal’s Prof Sourav Datta in New Delhi on Sept 5.",
+        "content": "Bhopal\nBhopal: Prof Sourav Datta of the Department of Biological Sciences at the Indian Institute of Science Education and Research (IISER) Bhopal has been selected for the National Award to Teachers – HEI 2026. President of India Droupadi Murmu will... [1621 chars]",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/president-murmu-to-present-national-teachers-award-to-iiser-bhopals-datta-on-sept-5/articleshow/133430926.cms",
+        "image": "https://static.toiimg.com/thumb/msid-133430925,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-22T20:01:00Z",
+        "lang": "en",
+        "source": {
+          "id": "9a9a0fb79c70bbf499d39baca94921ae",
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "744515fa5109e8c760abdb63a08c758f",
+        "title": "Class 11 student dies by suicide at home in Bhopal’s TT Nagar",
+        "description": "Class 11 student Ritesh Pal, 17, dies by suicide at his TT Nagar home in Bhopal after returning from school; police probe underway, motive unknown.",
+        "content": "suicide\nBhopal: A 17-year-old boy, a Class 11 student, allegedly died by suicide at his home in TT Nagar on Friday evening, police said. The deceased was identified as Ritesh Pal. He lived with his parents and two elder brothers at Jawahar Chowk and ... [670 chars]",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/class-11-student-dies-by-suicide-at-home-in-bhopals-tt-nagar/articleshow/133430908.cms",
+        "image": "https://static.toiimg.com/thumb/msid-133430907,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-22T19:58:00Z",
+        "lang": "en",
+        "source": {
+          "id": "9a9a0fb79c70bbf499d39baca94921ae",
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "6946b6ad3bd1dd615df5e8d33082f8da",
+        "title": "Three booked in Berasia abetment to suicide over ancestral land dispute",
+        "description": "Bhopal: Berasia police booked father, stepmother and brother for abetment to suicide after a man died by poison over alleged denial of ancestral land share.",
+        "content": "suicide\nBhopal: Berasia police on Friday registered a case on charges of abetment to suicide against the father, stepmother and elder brother of a 38-year-old man who died by suicide after allegedly being distressed over not receiving a share in his ... [1076 chars]",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/three-booked-in-berasia-abetment-to-suicide-over-ancestral-land-dispute/articleshow/133430816.cms",
+        "image": "https://static.toiimg.com/thumb/msid-133430815,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-22T19:40:00Z",
+        "lang": "en",
+        "source": {
+          "id": "9a9a0fb79c70bbf499d39baca94921ae",
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "17c5e2e713aed66dd66b7e3429cfcf96",
+        "title": "Bhopal Rehan Murder Case: Evidence Seized As Accused Move To Judicial Custody",
+        "description": "Accused in the murder of 16-year-old Rehan have been sent to judicial custody after their police remand ended. Police recovered clothes, a cap and other items allegedly linked to the crime, while verifying the knife purchase and car trail. Four CCTV recordings have also emerged as investigators continue probing the case.",
+        "content": "Bhopal (Madhya Pradesh): The accused in the murder of 16-year-old Rehan were sent to judicial custody on Saturday after their police remand ended. During interrogation and searches, police recovered the clothes, cap and other items allegedly used by ... [1190 chars]",
+        "url": "https://www.freepressjournal.in/bhopal/bhopal-rehan-murder-case-evidence-seized-as-accused-move-to-judicial-custody",
+        "image": "https://media.assettype.com/freepressjournal/2026-02-21/67bc0o6q/MURDER-REP.jpg",
+        "publishedAt": "2026-08-22T19:30:00Z",
+        "lang": "en",
+        "source": {
+          "id": "7eeaf9a839918543cc708f2d331c3be4",
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in",
+          "country": "in"
+        }
+      },
+      {
+        "id": "3955d6d32fbfd22b3fff5b263b5c1a99",
+        "title": "Bhavnagar Hooch toll rises to 9; 17 hospitalised, 3 in ICU",
+        "description": "Nine people died from spurious liquor in Bhavnagar by Saturday evening. Seventeen individuals remained hospitalized, with three in critical condition after consuming the toxic brew. Police arrested thirteen people and named twenty-one in the FIR, identifying Raees as the mastermind. Forensic reports confirmed high methanol content, which made the liquor fatally toxic. Raw materials were sourced from Madhya Pradesh and Ahmedabad for final production in Bhavnagar.",
+        "content": "Synopsis\nNine people died from spurious liquor in Bhavnagar by Saturday evening. Seventeen individuals remained hospitalized, with three in critical condition after consuming the toxic brew. Police arrested thirteen people and named twenty-one in the... [1657 chars]",
+        "url": "https://economictimes.indiatimes.com/news/india/bhavnagar-hooch-toll-rises-to-9-17-hospitalised-3-in-icu/articleshow/133430638.cms",
+        "image": "https://img.etimg.com/thumb/msid-133430653,width-1200,height-630,imgsize-96490,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-22T19:15:00Z",
+        "lang": "en",
+        "source": {
+          "id": "5464668c1f0466950a0b2fab5249ec6c",
+          "name": "The Economic Times",
+          "url": "https://economictimes.indiatimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "393c12ba31a954c5ffa9adb6ee1654a9",
+        "title": "MP: Three sisters die under suspicious circumstances in Chhatarpur",
+        "description": "MP: Three sisters die under suspicious circumstances in Chhatarpur - Chhatarpur, Aug 22 Three minor sisters, including a nine‑month‑old infant, died under suspicious circumstances in Madhya Pradesh’s Chhatarpur ... Get Latest News on National only on lokmattimes.com",
+        "content": "Chhatarpur, Aug 22 Three minor sisters, including a nine‑month‑old infant, died under suspicious circumstances in Madhya Pradesh’s Chhatarpur district, prompting authorities to exhume their bodies for post‑mortem examination, police said on Saturday.... [1781 chars]",
+        "url": "https://www.lokmattimes.com/national/mp-three-sisters-die-under-suspicious-circumstances-in-chhatarpur/",
+        "image": "https://d3pc1xvrcw35tl.cloudfront.net/ln/feedImages/1200x900/202608233914790_202608.jpg",
+        "publishedAt": "2026-08-22T19:05:14Z",
+        "lang": "en",
+        "source": {
+          "id": "f2ddccedc9e60d844e7a1045928cad48",
+          "name": "Lokmat Times",
+          "url": "https://www.lokmattimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "9f5f2a4f94a728b43548ee959ba92db3",
+        "title": "Gang Duping Women With Fake Currency Bundles Active In Bhopal",
+        "description": "A gang allegedly targeting women with fake currency bundles has been active across the city, with nearly a dozen incidents reported in recent months. Suspects reportedly lure women into handing over jewellery before fleeing with ornaments and leaving paper-filled bundles. Police are examining CCTV footage and suspect an inter-state gang.",
+        "content": "Bhopal (Madhya Pradesh): A gang targeting women by luring them with fake currency bundles has become active in the city. The suspects approach women on the pretext of asking for directions, gain their confidence and then persuade them to hand over th... [1784 chars]",
+        "url": "https://www.freepressjournal.in/bhopal/gang-duping-women-with-fake-currency-bundles-active-in-bhopal",
+        "image": "https://media.assettype.com/freepressjournal/2025-11-24/pltlviax/images.jpg",
+        "publishedAt": "2026-08-22T18:30:00Z",
+        "lang": "en",
+        "source": {
+          "id": "7eeaf9a839918543cc708f2d331c3be4",
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in",
+          "country": "in"
+        }
+      },
+      {
+        "id": "8b1406231792953c663c3bc9d454d1d1",
+        "title": "Fraudster posing as company executive dupes bank of Rs 15.65 lakh",
+        "description": "Fraudster posing as a company director dupes Bhopal nationalised bank into two RTGS transfers totalling Rs 15.65 lakh; police probe beneficiary accounts.",
+        "content": "A vibrant cartoon illustration shows a fraudster posing as a company executive using fake authorization letters sent by email to trick a bank into transferring Rs 15.65 lakh via RTGS in a corporate fraud scam.\nBhopal: A fraudster posing as an executi... [1490 chars]",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/fraudster-posing-as-company-executive-dupes-bank-of-rs-15-65-lakh/articleshow/133429691.cms",
+        "image": "https://static.toiimg.com/thumb/msid-133429690,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-22T18:05:00Z",
+        "lang": "en",
+        "source": {
+          "id": "9a9a0fb79c70bbf499d39baca94921ae",
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "c5380b664a3d59b867a6a5208016ce8e",
+        "title": "Fire Safety Lapses Put Thousands At Risk In Major Hospitals In Bhopal",
+        "description": "A fire at Deepshikha Hospital has exposed gaps in mandatory fire safety audits, raising concerns over patient safety. Though the hospital had a Fire NOC, its audit was not renewed. JP Hospital and two Gandhi Medical College buildings also reportedly lack Fire NOCs, putting emergency preparedness under scrutiny.",
+        "content": "Bhopal (Madhya Pradesh): A fire at Deepshikha Hospital in Vidya Nagar has exposed serious gaps in fire safety compliance at healthcare facilities in Bhopal, raising concerns over the safety of thousands of patients, attendants and staff at major hosp... [1654 chars]",
+        "url": "https://www.freepressjournal.in/bhopal/fire-safety-lapses-put-thousands-at-risk-in-major-hospitals-in-bhopal",
+        "image": "https://media.assettype.com/freepressjournal/2026-08-22/qu1pzz1i/9pic22-with-3-Utsav.jpg",
+        "publishedAt": "2026-08-22T17:30:00Z",
+        "lang": "en",
+        "source": {
+          "id": "7eeaf9a839918543cc708f2d331c3be4",
+          "name": "Free Press Journal",
+          "url": "https://www.freepressjournal.in",
+          "country": "in"
+        }
+      }
+    ]
+  }
+}

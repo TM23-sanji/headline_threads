@@ -1,0 +1,87 @@
+{
+  "captured_at": "2026-08-23T09:01:27.926301+00:00",
+  "query": "Bhopal OR \"Madhya Pradesh\"",
+  "providers": [
+    {
+      "provider": "newsdata",
+      "status": "ok",
+      "http_status": 200,
+      "raw_count": 10,
+      "usable_count": 10,
+      "error": null
+    },
+    {
+      "provider": "gnews",
+      "status": "ok",
+      "http_status": 200,
+      "raw_count": 10,
+      "usable_count": 10,
+      "error": null
+    },
+    {
+      "provider": "newsapi",
+      "status": "ok",
+      "http_status": 200,
+      "raw_count": 10,
+      "usable_count": 10,
+      "error": null
+    }
+  ],
+  "merged_total": 27,
+  "duplicates_dropped": 3,
+  "schema_invalid": [],
+  "field_coverage": {
+    "snippet": {
+      "present": 27,
+      "total": 27,
+      "pct": 100
+    },
+    "published_at": {
+      "present": 27,
+      "total": 27,
+      "pct": 100
+    },
+    "image_url": {
+      "present": 27,
+      "total": 27,
+      "pct": 100
+    },
+    "language": {
+      "present": 27,
+      "total": 27,
+      "pct": 100
+    },
+    "source": {
+      "present": 27,
+      "total": 27,
+      "pct": 100
+    }
+  },
+  "on_topic": {
+    "per_provider": {
+      "newsdata": "10/10",
+      "gnews": "7/7",
+      "newsapi": "10/10"
+    },
+    "overall": "27/27",
+    "pct": 100,
+    "off_topic": []
+  },
+  "date_format_samples": {
+    "newsdata": [
+      "2026-08-22T19:30:00+00:00",
+      "2026-08-22T18:30:00+00:00",
+      "2026-08-22T17:34:43+00:00"
+    ],
+    "gnews": [
+      "2026-08-22T20:38:00+00:00",
+      "2026-08-22T20:01:00+00:00",
+      "2026-08-22T19:58:00+00:00"
+    ],
+    "newsapi": [
+      "2026-08-22T07:10:36+00:00",
+      "2026-08-21T19:46:41+00:00",
+      "2026-08-20T17:04:10+00:00"
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+==============================================================================
+DEMO DATA  |  query: Bhopal OR "Madhya Pradesh"
+captured : 2026-08-23T09:01:27.924722+00:00
+articles : 27
+==============================================================================
+
+[01] Bhopal Rehan Murder Case: Evidence Seized As Accused Move To Judicial Custody
+     provider : newsdata
+     source   : Free Press Journal
+     published: 2026-08-22T19:30:00+00:00
+     lang     : en
+     url      : https://www.freepressjournal.in/bhopal/bhopal-rehan-murder-case-evidence-seized-as-accused-move-to-judicial-custody
+     image    : https://media.assettype.com/freepressjournal/2026-02-21/67bc0o6q/MURDER-REP.jpg
+     snippet  : The accused in the murder of 16-year-old Rehan have been sent to judicial custody after their police remand ended. Police recovered clothes, a cap and other items allegedly linked to the crime, while verifying the knife purchase and car trail. Four CCTV recordings have also emerged as investigators 
+
+[02] Gang Duping Women With Fake Currency Bundles Active In Bhopal
+     provider : newsdata
+     source   : Free Press Journal
+     published: 2026-08-22T18:30:00+00:00
+     lang     : en
+     url      : https://www.freepressjournal.in/bhopal/gang-duping-women-with-fake-currency-bundles-active-in-bhopal
+     image    : https://media.assettype.com/freepressjournal/2025-11-24/pltlviax/images.jpg
+     snippet  : A gang allegedly targeting women with fake currency bundles has been active across the city, with nearly a dozen incidents reported in recent months. Suspects reportedly lure women into handing over jewellery before fleeing with ornaments and leaving paper-filled bundles. Police are examining CCTV f
+
+[03] BHOPAL TEACHER ARCHANA SHUKLA
+     provider : newsdata
+     source   : ETV Bharat
+     published: 2026-08-22T17:34:43+00:00
+     lang     : hi
+     url      : https://www.etvbharat.com/hi/state/bhopal-mahatma-gandhi-sandipani-vidyalaya-teacher-archana-shukla-selected-for-national-teachers-award-2026-mps26082206650
+     image    : https://imgs.etvbharat.com/etvbharat/prod-images/22-08-2026/1200-675-27459873-thumbnail-16x9-bhopal.jpg
+     snippet  : भोपाल के महात्मा गांधी सांदीपनि विद्यालय की शिक्षिका डॉ अर्चना शुक्ला का राष्ट्रीय शिक्षक पुरस्कार के लिए हुआ चयन. विश्वास चतुर्वेदी की रिपोर्ट.
+
+[04] Fire Safety Lapses Put Thousands At Risk In Major Hospitals In Bhopal
+     provider : newsdata
+     source   : Free Press Journal
+     published: 2026-08-22T17:30:00+00:00
+     lang     : en
+     url      : https://www.freepressjournal.in/bhopal/fire-safety-lapses-put-thousands-at-risk-in-major-hospitals-in-bhopal
+     image    : https://media.assettype.com/freepressjournal/2026-08-22/qu1pzz1i/9pic22-with-3-Utsav.jpg
+     snippet  : A fire at Deepshikha Hospital has exposed gaps in mandatory fire safety audits, raising concerns over patient safety. Though the hospital had a Fire NOC, its audit was not renewed. JP Hospital and two Gandhi Medical College buildings also reportedly lack Fire NOCs, putting emergency preparedness und
+
+[05] Madhya Pradesh Shocker: बैंगन का भरता और रोटी खाने के बाद तीन सगी बहनों की मौत, बिना पोस्टमार्टम दफनाए गए शव; जांच में जुटी पुलिस
+     provider : newsdata
+     source   : LatestLY
+     published: 2026-08-22T16:34:25+00:00
+     lang     : hi
+     url      : https://hindi.latestly.com/india/madhya-pradesh-3-sisters-including-9-month-old-die-after-eating-baingan-bharta-in-chhatarpur-2927777.html
+     image    : https://hist1.latestly.com/wp-content/uploads/2026/08/Baingan_Bharta.jpg
+     snippet  : पुलिस ने कहा है कि पूरे घटनाक्रम की गहन जांच की जा रही है. पोस्टमार्टम रिपोर्ट और अन्य साक्ष्यों के आधार पर ही यह स्पष्ट हो सकेगा कि तीनों बहनों की मौत किन परिस्थितियों में हुई और क्या इस मामले में आगे कोई कानूनी कार्रवाई की आवश्यकता है.
+
+[06] Samriddh Madhya Pradesh 2047: CM मोहन यादव कॉन्क्लेव का करेंगे शुभारंभ, समृद्ध मध्यप्रदेश पर होगी चर्चा
+     provider : newsdata
+     source   : Khabar Digital
+     published: 2026-08-22T16:32:52+00:00
+     lang     : hi
+     url      : https://khabardigital.com/madhya-pradesh/samriddh-madhya-pradesh-2047-cm-mohan-yadav-inauguration/
+     image    : https://khabardigital.com/wp-content/uploads/2026/08/cm-mohan-yadav-2026-1.jpg
+     snippet  : Samriddh Madhya Pradesh 2047: मुख्यमंत्री डॉ. मोहन यादव 24 अगस्त को भोपाल के कुशाभाऊ ठाकरे अंतरराष्ट्रीय कन्वेंशन सेंटर में आयोजित एक दिवसीय “कंट्रीब्यूशन ऑफ सेंट्रली फंडेड इंस्टीट्यूशनस फॉर समृद्ध मध्यप्रदेश@2047” Conclave का शुभारंभ करेंगे। कॉन्क्लेव में समृद्ध मध्यप्रदेश के लक्ष्य को लेकर विभिन्न
+
+[07] National Teacher Awards: Pushpa Prasad from Bihar and Shailendra Pratap Singh from Madhya Pradesh Selected
+     provider : newsdata
+     source   : Udaipur Kiran
+     published: 2026-08-22T16:30:28+00:00
+     lang     : en
+     url      : https://udaipurkiran.com/national-teacher-awards-pushpa-prasad-from-bihar-and-shailendra-pratap-singh-from-madhya-pradesh-selected/
+     image    : https://udaipurkiran.com/wp-content/uploads/2026/08/national-teacher-awards-pushpa-prasad-from-bihar-and-shailendra-pratap-singh-from-madhya-pradesh-selected.jpg
+     snippet  : New Delhi, August 22: Pushpa Prasad, a teacher from Kuchaykot in Gopalganj, Bihar, has been selected for the National Teacher Award. She will be honored by the President of India, Droupadi Murmu, on September 5, Teacher’s Day. Shailendra Pratap Singh from Sidhi, Madhya Pradesh, has also been chosen 
+
+[08] BHOPAL NEWS : भोपाल में सो रहे बुजुर्ग को बदमाशों ने बनाया निशाना, मोबाइल और नकदी लूटी, घटना CCTV कैमरे में कैद
+     provider : newsdata
+     source   : INH News
+     published: 2026-08-22T16:01:17+00:00
+     lang     : hi
+     url      : https://www.inhnews.in/news/miscreants-attacked-and-robbed-an-elderly-man-while-he-was-asleep-in-bhopal
+     image    : https://www.inhnews.in/upload/news/639230310771488373.jpg?w=1200
+     snippet  : भोपाल: राजधानी भोपाल में सड़क किनारे सो रहे एक बुजुर्ग के साथ लूट और मारपीट का मामला सामने आया है। घटना खजुरी सड़क थाना क्षेत्र की है। जहां 2 बदमाशों ने घटना को अंजाम दिया। इतना ही नहीं घटना का सीसीटीवी फुटेज भी सामने आया है। जिसके आधार पर पुलिस आगे की कार्रवाई कर रही है। 2 बदमाशों ने दिया वारदात को
+
+[09] Bhopal viral video: भोपाल में हिंदू उत्सव समिति के अध्यक्ष चंद्रशेखर तिवारी और TI राजन सिंह की बहस, कांग्रेस विधायक आरिफ मसूद के दबाव में कार्रवाई नहीं करने का आरोप
+     provider : newsdata
+     source   : Bansal News
+     published: 2026-08-22T15:44:58+00:00
+     lang     : hi
+     url      : https://bansalnews.com/madhya-pradesh/bhopal/chandrashekhar-tiwari-and-ti-rajan-singh-video-bhopal-hindi-news-rkg-12416498
+     image    : https://img-cdn.publive.online/fit-in/1280x960/bansal-news/media/media_files/2026/08/22/chandrashekhar-tiwari-and-ti-rajan-singh-video-bhopal-hindi-news-2026-08-22-21-14-42.jpg
+     snippet  : Chandrashekhar Tiwari TI Rajan Singh Vivad: भोपाल के जहांगीराबाद थाने में हिंदू उत्सव समिति के अध्यक्ष चंद्रशेखर तिवारी और टीआई राजन सिंह के बीच तीखी नोकझोंक का वीडियो सोशल मीडिया में जमकर वायरल हो रहा है। वायरल वीडियो इस वीडियो में हिंदू उत्सव समिति के अध्यक्ष चंद्रशेखर तिवारी, टीआई राजन सिंह पर बर
+
+[10] DPS BHOPAL अंडर इन्वेस्टिगेशन: भोपाल में कक्षा 9 की छात्रा के सुसाइड का मामला
+     provider : newsdata
+     source   : Bhopal Samachar
+     published: 2026-08-22T15:22:15+00:00
+     lang     : hi
+     url      : https://www.bhopalsamachar.com/2026/08/dps-bhopal-class-9-student-suicide-case.html
+     image    : https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUg57BlN-KN_RNmsxt0wUFAv14bOQx1nf135GlWqGQkdfOHikoA4U8rE7kjoN5FVjC29QqJgo8oqWts62m5e0RwLaTCpBeZg25SGcdDoKpzPD4m0Xt1QEE11LowNiBPBHAJYYnMt6MSDFUVwlkynwsefj1AqmPlQAYd-8oT9WPAFeCv8XVVzkia-5X05k/s72-c/bhopal%20-%202026-08-22T205122.709.webp
+     snippet  : भोपाल, 22 अगस्त 2026: राजधानी का सबसे प्रतिष्ठित दिल्ली पब्लिक स्कूल जांच के दायरे में है। कक्षा 9 की एक छात्रा ने सुसाइड कर लिया है। पुलिस इन्वेस्टिगेट कर रही है कि क्या वह सुसाइड वाले दिन DPS की स्टूडेंट थी? परिवार वालों का कहना है कि वह DPS की स्टूडेंट थी जबकि DPS मैनेजमेंट का कहना है कि हमने 2 म
+
+[11] Stray Cattle Disrupt Traffic On Busy Roads, Raise Accident Risk In MP's Susner
+     provider : gnews
+     source   : Free Press Journal
+     published: 2026-08-22T20:38:00+00:00
+     lang     : en
+     url      : https://www.freepressjournal.in/indore/stray-cattle-disrupt-traffic-on-busy-roads-raise-accident-risk-in-mps-susner
+     image    : https://media.assettype.com/freepressjournal/2026-08-22/746eleu8/22-Aug-–-Susner-–-cattle-.jpg
+     snippet  : Stray cattle on busy roads in Madhya Pradesh’s Susner are disrupting traffic and raising accident concerns, especially during evening hours. Residents said cattle returned after roads were cleared for a minister’s visit. Citizens have demanded regular monitoring and removal drives, while the municip
+
+[12] President Murmu to present National Teachers’ Award to IISER Bhopal’s Datta on Sept 5
+     provider : gnews
+     source   : Times of India
+     published: 2026-08-22T20:01:00+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/president-murmu-to-present-national-teachers-award-to-iiser-bhopals-datta-on-sept-5/articleshow/133430926.cms
+     image    : https://static.toiimg.com/thumb/msid-133430925,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : President Droupadi Murmu to confer National Teachers’ Award HEI 2026 on IISER Bhopal’s Prof Sourav Datta in New Delhi on Sept 5.
+
+[13] Class 11 student dies by suicide at home in Bhopal’s TT Nagar
+     provider : gnews
+     source   : Times of India
+     published: 2026-08-22T19:58:00+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/class-11-student-dies-by-suicide-at-home-in-bhopals-tt-nagar/articleshow/133430908.cms
+     image    : https://static.toiimg.com/thumb/msid-133430907,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Class 11 student Ritesh Pal, 17, dies by suicide at his TT Nagar home in Bhopal after returning from school; police probe underway, motive unknown.
+
+[14] Three booked in Berasia abetment to suicide over ancestral land dispute
+     provider : gnews
+     source   : Times of India
+     published: 2026-08-22T19:40:00+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/three-booked-in-berasia-abetment-to-suicide-over-ancestral-land-dispute/articleshow/133430816.cms
+     image    : https://static.toiimg.com/thumb/msid-133430815,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Bhopal: Berasia police booked father, stepmother and brother for abetment to suicide after a man died by poison over alleged denial of ancestral land share.
+
+[15] Bhavnagar Hooch toll rises to 9; 17 hospitalised, 3 in ICU
+     provider : gnews
+     source   : The Economic Times
+     published: 2026-08-22T19:15:00+00:00
+     lang     : en
+     url      : https://economictimes.indiatimes.com/news/india/bhavnagar-hooch-toll-rises-to-9-17-hospitalised-3-in-icu/articleshow/133430638.cms
+     image    : https://img.etimg.com/thumb/msid-133430653,width-1200,height-630,imgsize-96490,overlay-economictimes/articleshow.jpg
+     snippet  : Nine people died from spurious liquor in Bhavnagar by Saturday evening. Seventeen individuals remained hospitalized, with three in critical condition after consuming the toxic brew. Police arrested thirteen people and named twenty-one in the FIR, identifying Raees as the mastermind. Forensic reports
+
+[16] MP: Three sisters die under suspicious circumstances in Chhatarpur
+     provider : gnews
+     source   : Lokmat Times
+     published: 2026-08-22T19:05:14+00:00
+     lang     : en
+     url      : https://www.lokmattimes.com/national/mp-three-sisters-die-under-suspicious-circumstances-in-chhatarpur/
+     image    : https://d3pc1xvrcw35tl.cloudfront.net/ln/feedImages/1200x900/202608233914790_202608.jpg
+     snippet  : MP: Three sisters die under suspicious circumstances in Chhatarpur - Chhatarpur, Aug 22 Three minor sisters, including a nine‑month‑old infant, died under suspicious circumstances in Madhya Pradesh’s Chhatarpur ... Get Latest News on National only on lokmattimes.com
+
+[17] Fraudster posing as company executive dupes bank of Rs 15.65 lakh
+     provider : gnews
+     source   : Times of India
+     published: 2026-08-22T18:05:00+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/fraudster-posing-as-company-executive-dupes-bank-of-rs-15-65-lakh/articleshow/133429691.cms
+     image    : https://static.toiimg.com/thumb/msid-133429690,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Fraudster posing as a company director dupes Bhopal nationalised bank into two RTGS transfers totalling Rs 15.65 lakh; police probe beneficiary accounts.
+
+[18] ET World Leaders Forum 2026: Madhya Pradesh now promises business land within 29 days, says Mohan Yadav
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-22T07:10:36+00:00
+     lang     : en
+     url      : https://economictimes.indiatimes.com/news/india/et-world-leaders-forum-2026-madhya-pradesh-now-promises-business-land-within-29-days-says-mohan-yadav/articleshow/133419548.cms
+     image    : https://img.etimg.com/thumb/msid-133419625,width-1200,height-630,imgsize-135920,overlay-economictimes/articleshow.jpg
+     snippet  : Madhya Pradesh has abolished over 900 hindering laws and offers land within 29 days.  The state has attracted investments worth ten lakh crore rupees for ongoing projects.  Exports are expanding from 37 districts, with further efforts underway for all 55.  Cl…
+
+[19] IMD alert heavy rainfall alert for Bhopal, other MP dists
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-21T19:46:41+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/imd-alert-heavy-rainfall-alert-for-bhopal-other-mp-dists/articleshow/133413389.cms
+     image    : https://static.toiimg.com/thumb/msid-133413388,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : IMD issues heavy rain alert for Bhopal and Madhya Pradesh; very heavy rainfall warned in five districts, with thunderstorms, lightning and gusty winds elsewhere.
+
+[20] Bhopal milk procurement rises 38% on better farmer returns
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-20T17:04:10+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/bhopal-milk-procurement-rises-38-on-better-farmer-returns/articleshow/133384080.cms
+     image    : https://static.toiimg.com/photo/msid-47529300/47529300.jpg
+     snippet  : Bhopal Milk Union milk procurement rises 30% to 10.5 lakh kg/day as higher farmer prices, timely payments and new collection infrastructure boost supply.
+
+[21] New Gamma Knife at AIIMS Bhopal to offer painless brain treatment locally
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-20T17:00:31+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/new-gamma-knife-at-aiims-bhopal-to-offer-painless-brain-treatment-locally/articleshow/133384010.cms
+     image    : https://static.toiimg.com/thumb/msid-133384008,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : AIIMS Bhopal to get Gamma Knife radiosurgery facility after PAC approval; ₹45 crore Swedish system to offer non-invasive brain tumour treatment within a year.
+
+[22] 15-year-old girl complains of ear pain, doctors find scorpion inside in Madhya Pradesh
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-20T02:26:30+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/15-year-old-girl-complains-of-ear-pain-doctors-find-scorpion-inside-in-madhya-pradesh/articleshow/133361859.cms
+     image    : https://static.toiimg.com/thumb/msid-133361859,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : A teenage girl suffered from severe ear pain on her way home, only to find out that a small scorpion was stuck in her left ear. This unusual incident likely happened when she was gathering grass for the cattle. Thankfully, the doctor successfully extracted th…
+
+[23] Traders stage sit-in against BMC licence fee in Bhopal
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-19T19:13:12+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/traders-stage-sit-in-against-bmc-licence-fee-in-bhopal/articleshow/133358210.cms
+     image    : https://static.toiimg.com/thumb/msid-133358209,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Bhopal traders stage sit-in at BMC office, demanding withdrawal of commercial license fee, citing it is charged only in Bhopal and not other MP cities.
+
+[24] Commercial licence fee abolition approved; hawkers corner e-tender proposal stalled in Bhopal
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-19T19:06:59+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/commercial-licence-fee-abolition-approved-hawkers-corner-e-tender-proposal-stalled-in-bhopal/articleshow/133358137.cms
+     image    : https://static.toiimg.com/thumb/msid-133358136,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Bhopal Municipal Corporation council approves abolishing commercial license fees for traders; Hawkers Corner e-tendering stalled; vacant buildings rental okayed.
+
+[25] Drunk SUV driver kills man, injures toddler in Bhopal
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-19T18:24:11+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bhopal/drunk-suv-driver-kills-man-injures-toddler-in-bhopal/articleshow/133357141.cms
+     image    : https://static.toiimg.com/thumb/msid-133350584,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Drunk SUV driver hits stationary scooter in Bhopal’s Kolar, killing 35-year-old father and critically injuring son; driver nabbed, FIR filed, vehicle seized.
+
+[26] 5 Madhya Pradesh accident victims brought home to Kheri village
+     provider : newsapi
+     source   : Times of India
+     published: 2026-08-19T17:02:25+00:00
+     lang     : en
+     url      : https://timesofindia.indiatimes.com/city/bareilly/5-madhya-pradesh-accident-victims-brought-home-to-kheri-village/articleshow/133354543.cms
+     image    : https://static.toiimg.com/thumb/msid-133354539,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg
+     snippet  : Five Bhind road accident victims were cremated in Bela Tursia village, Kheri; UP CM Yogi Adityanath announced Rs 2 lakh aid per bereaved family.
+
+[27] Madhya Pradesh Ladli Behna Scheme: CM Mohan Yadav disbursed ₹1500 monthly installment; did you receive?—how to check
+     provider : newsapi
+     source   : Livemint
+     published: 2026-08-19T15:46:55+00:00
+     lang     : en
+     url      : https://www.livemint.com/money/personal-finance/madhya-pradesh-ladli-behna-scheme-cm-mohan-yadav-disbursed-rs-1500-monthly-installment-did-you-receive-how-to-check-11787149037163.html
+     image    : https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/ANI-20260818073-0_1787152946972_1787152955995_eb2c5389-a035-4d6a-a745-2b840eb728a4.jpg
+     snippet  : Madhya Pradesh CM Mohan Yadav transferred  ₹1,750 to over 1.25 crore beneficiaries under the Ladli Behna scheme, including a  ₹250 Raksha Bandhan gift, to promote women's financial independence. He emphasised the importance of women’s roles in family and soci…

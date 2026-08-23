@@ -1,0 +1,72 @@
+[
+  {
+    "_case": "chain-1 / day 0 - story breaks",
+    "title": "Illegal construction in Bhopal's Shahpura area under scanner, BMC issues notice",
+    "snippet": "The Bhopal Municipal Corporation has issued notices to 14 property owners in Shahpura over illegal construction. Officials said the unauthorized floors violate building permissions.",
+    "url": "https://example.com/a1",
+    "source": "Free Press Journal",
+    "provider": "newsdata",
+    "language": "en",
+    "published_at": "2026-08-01T09:00:00+00:00"
+  },
+  {
+    "_case": "chain-1 / day 0 - SYNDICATION, must collapse into same beat",
+    "title": "BMC issues notices over illegal construction in Shahpura, Bhopal",
+    "snippet": "Bhopal Municipal Corporation issued notices to 14 property owners in Shahpura for unauthorized construction violating building permissions.",
+    "url": "https://example.com/a2",
+    "source": "Times of India",
+    "provider": "gnews",
+    "language": "en",
+    "published_at": "2026-08-01T11:30:00+00:00"
+  },
+  {
+    "_case": "chain-1 / day 7 - NEW development, same thread",
+    "title": "Bhopal illegal construction: BMC begins demolition drive in Shahpura",
+    "snippet": "A week after issuing notices, the Bhopal Municipal Corporation started demolishing unauthorized floors in Shahpura. Work is underway at three properties.",
+    "url": "https://example.com/a3",
+    "source": "Dainik Bhaskar",
+    "provider": "newsapi",
+    "language": "en",
+    "published_at": "2026-08-08T07:15:00+00:00"
+  },
+  {
+    "_case": "chain-1 / day 21 - status change to stalled, same thread",
+    "title": "Shahpura demolition drive halted after owners move court over illegal construction",
+    "snippet": "The BMC demolition drive against illegal construction in Shahpura has been stopped after property owners obtained a stay from the high court.",
+    "url": "https://example.com/a4",
+    "source": "Free Press Journal",
+    "provider": "newsdata",
+    "language": "en",
+    "published_at": "2026-08-22T06:00:00+00:00"
+  },
+  {
+    "_case": "chain-2 / unrelated crime story - must NOT join chain-1",
+    "title": "Gang duping women with fake currency bundles active in Bhopal",
+    "snippet": "Police said a gang has been duping women by exchanging fake currency bundles near markets in Bhopal.",
+    "url": "https://example.com/b1",
+    "source": "Times of India",
+    "provider": "gnews",
+    "language": "en",
+    "published_at": "2026-08-09T10:00:00+00:00"
+  },
+  {
+    "_case": "chain-3 / separate infra story - must NOT join chain-1",
+    "title": "Bhopal metro rail project delayed again, trial run pushed to next year",
+    "snippet": "The Bhopal metro rail project has been delayed once more, with the trial run on the orange line now expected next year due to pending civil work.",
+    "url": "https://example.com/c1",
+    "source": "Times of India",
+    "provider": "newsapi",
+    "language": "en",
+    "published_at": "2026-08-10T05:00:00+00:00"
+  },
+  {
+    "_case": "chain-3 / day 14 - metro follow-up, joins chain-3 only",
+    "title": "Bhopal metro trial run on orange line to begin after civil work completion",
+    "snippet": "Officials said the Bhopal metro rail trial run will begin once pending civil work on the orange line is complete.",
+    "url": "https://example.com/c2",
+    "source": "Free Press Journal",
+    "provider": "newsdata",
+    "language": "en",
+    "published_at": "2026-08-24T05:00:00+00:00"
+  }
+]

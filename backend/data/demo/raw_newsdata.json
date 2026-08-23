@@ -1,0 +1,452 @@
+{
+  "captured_at": "2026-08-23T09:01:27.596751+00:00",
+  "endpoint": "https://newsdata.io/api/1/latest",
+  "params": {
+    "apikey": "***REDACTED***",
+    "qInTitle": "Bhopal OR \"Madhya Pradesh\"",
+    "country": "in",
+    "language": "hi,en",
+    "removeduplicate": 1
+  },
+  "payload": {
+    "status": "success",
+    "totalResults": 82,
+    "results": [
+      {
+        "article_id": "17c5e2e713aed66dd66b7e3429cfcf96",
+        "link": "https://www.freepressjournal.in/bhopal/bhopal-rehan-murder-case-evidence-seized-as-accused-move-to-judicial-custody",
+        "title": "Bhopal Rehan Murder Case: Evidence Seized As Accused Move To Judicial Custody",
+        "description": "The accused in the murder of 16-year-old Rehan have been sent to judicial custody after their police remand ended. Police recovered clothes, a cap and other items allegedly linked to the crime, while verifying the knife purchase and car trail. Four CCTV recordings have also emerged as investigators continue probing the case.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "bhopal news",
+          "topnews"
+        ],
+        "creator": [
+          "staff reporter"
+        ],
+        "language": "english",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "crime",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 19:30:00",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 19:35:17",
+        "image_url": "https://media.assettype.com/freepressjournal/2026-02-21/67bc0o6q/MURDER-REP.jpg",
+        "video_url": null,
+        "source_id": "freepressjournal",
+        "source_name": "The Free Press Journal",
+        "source_priority": 26427,
+        "source_url": "https://www.freepressjournal.in",
+        "source_icon": "https://n.bytvi.com/freepressjournal.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "9f5f2a4f94a728b43548ee959ba92db3",
+        "link": "https://www.freepressjournal.in/bhopal/gang-duping-women-with-fake-currency-bundles-active-in-bhopal",
+        "title": "Gang Duping Women With Fake Currency Bundles Active In Bhopal",
+        "description": "A gang allegedly targeting women with fake currency bundles has been active across the city, with nearly a dozen incidents reported in recent months. Suspects reportedly lure women into handing over jewellery before fleeing with ornaments and leaving paper-filled bundles. Police are examining CCTV footage and suspect an inter-state gang.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "bhopal news",
+          "topnews"
+        ],
+        "creator": [
+          "staff reporter"
+        ],
+        "language": "english",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "crime",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 18:30:00",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 18:35:19",
+        "image_url": "https://media.assettype.com/freepressjournal/2025-11-24/pltlviax/images.jpg",
+        "video_url": null,
+        "source_id": "freepressjournal",
+        "source_name": "The Free Press Journal",
+        "source_priority": 26427,
+        "source_url": "https://www.freepressjournal.in",
+        "source_icon": "https://n.bytvi.com/freepressjournal.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "ce4d40293b88fce458ec25971cedf477",
+        "link": "https://www.etvbharat.com/hi/state/bhopal-mahatma-gandhi-sandipani-vidyalaya-teacher-archana-shukla-selected-for-national-teachers-award-2026-mps26082206650",
+        "title": "BHOPAL TEACHER ARCHANA SHUKLA",
+        "description": "भोपाल के महात्मा गांधी सांदीपनि विद्यालय की शिक्षिका डॉ अर्चना शुक्ला का राष्ट्रीय शिक्षक पुरस्कार के लिए हुआ चयन. विश्वास चतुर्वेदी की रिपोर्ट.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "bhopal teacher archana shukla",
+          "national teachers award 2026",
+          "mahatma gandhi sandipani vidyalaya",
+          "teachers day 2026",
+          "archana shukla teachers award"
+        ],
+        "creator": [
+          "etv bharat madhya pradesh team"
+        ],
+        "language": "english",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "lifestyle"
+        ],
+        "datatype": "multimedia",
+        "pubDate": "2026-08-22 17:34:43",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 17:38:14",
+        "image_url": "https://imgs.etvbharat.com/etvbharat/prod-images/22-08-2026/1200-675-27459873-thumbnail-16x9-bhopal.jpg",
+        "video_url": "https://geo.dailymotion.com/player/xu5gi.html?video=xazu1gu",
+        "source_id": "etvbharat",
+        "source_name": "Etv Bharat",
+        "source_priority": 43467,
+        "source_url": "https://www.etvbharat.com",
+        "source_icon": "https://n.bytvi.com/etvbharat.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "c5380b664a3d59b867a6a5208016ce8e",
+        "link": "https://www.freepressjournal.in/bhopal/fire-safety-lapses-put-thousands-at-risk-in-major-hospitals-in-bhopal",
+        "title": "Fire Safety Lapses Put Thousands At Risk In Major Hospitals In Bhopal",
+        "description": "A fire at Deepshikha Hospital has exposed gaps in mandatory fire safety audits, raising concerns over patient safety. Though the hospital had a Fire NOC, its audit was not renewed. JP Hospital and two Gandhi Medical College buildings also reportedly lack Fire NOCs, putting emergency preparedness under scrutiny.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "topnews",
+          "bhopal news"
+        ],
+        "creator": [
+          "staff reporter"
+        ],
+        "language": "english",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "crime",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 17:30:00",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 17:35:55",
+        "image_url": "https://media.assettype.com/freepressjournal/2026-08-22/qu1pzz1i/9pic22-with-3-Utsav.jpg",
+        "video_url": null,
+        "source_id": "freepressjournal",
+        "source_name": "The Free Press Journal",
+        "source_priority": 26427,
+        "source_url": "https://www.freepressjournal.in",
+        "source_icon": "https://n.bytvi.com/freepressjournal.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "df08601d00eedd9177ed8c45461d205f",
+        "link": "https://hindi.latestly.com/india/madhya-pradesh-3-sisters-including-9-month-old-die-after-eating-baingan-bharta-in-chhatarpur-2927777.html",
+        "title": "Madhya Pradesh Shocker: बैंगन का भरता और रोटी खाने के बाद तीन सगी बहनों की मौत, बिना पोस्टमार्टम दफनाए गए शव; जांच में जुटी पुलिस",
+        "description": "पुलिस ने कहा है कि पूरे घटनाक्रम की गहन जांच की जा रही है. पोस्टमार्टम रिपोर्ट और अन्य साक्ष्यों के आधार पर ही यह स्पष्ट हो सकेगा कि तीनों बहनों की मौत किन परिस्थितियों में हुई और क्या इस मामले में आगे कोई कानूनी कार्रवाई की आवश्यकता है.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "india news",
+          "तीन बहनों की मौत",
+          "baingan bharta",
+          "चौंकाने वाली खबर",
+          "police investigation",
+          "chhatarpur",
+          "food poisoning",
+          "फूड पॉइजनिंग",
+          "mp news",
+          "छतरपुर",
+          "एमपी न्यूज़",
+          "मध्य प्रदेश",
+          "post mortem",
+          "पोस्टमार्टम",
+          "three sisters death",
+          "पुलिस जांच",
+          "पिपोरा खुर्द",
+          "madhya pradesh",
+          "बैंगन का भरता",
+          "pipora khurd"
+        ],
+        "creator": [
+          "siddharth raghuvanshi"
+        ],
+        "language": "hindi",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "crime",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 16:34:25",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 17:07:26",
+        "image_url": "https://hist1.latestly.com/wp-content/uploads/2026/08/Baingan_Bharta.jpg",
+        "video_url": null,
+        "source_id": "latestly",
+        "source_name": "Latestly",
+        "source_priority": 31923,
+        "source_url": "https://www.latestly.com",
+        "source_icon": "https://n.bytvi.com/latestly.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "e1d3742ce5d909f8a0a987410719f26b",
+        "link": "https://khabardigital.com/madhya-pradesh/samriddh-madhya-pradesh-2047-cm-mohan-yadav-inauguration/",
+        "title": "Samriddh Madhya Pradesh 2047: CM मोहन यादव कॉन्क्लेव का करेंगे शुभारंभ, समृद्ध मध्यप्रदेश पर होगी चर्चा",
+        "description": "Samriddh Madhya Pradesh 2047: मुख्यमंत्री डॉ. मोहन यादव 24 अगस्त को भोपाल के कुशाभाऊ ठाकरे अंतरराष्ट्रीय कन्वेंशन सेंटर में आयोजित एक दिवसीय “कंट्रीब्यूशन ऑफ सेंट्रली फंडेड इंस्टीट्यूशनस फॉर समृद्ध मध्यप्रदेश@2047” Conclave का शुभारंभ करेंगे। कॉन्क्लेव में समृद्ध मध्यप्रदेश के लक्ष्य को लेकर विभिन्न महत्वपूर्ण विषयों पर चर्चा होगी। यह आयोजन अटल बिहारी वाजपेयी सुशासन एवं [...] The post Samriddh Madhya Pradesh 2047: CM मोहन यादव कॉन्क्लेव का करेंगे शुभारंभ, समृद्ध मध्यप्रदेश पर होगी चर्चा appeared first on Khabar Digital .",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "मोहन यादव",
+          "madhya pradesh news",
+          "state level conclave",
+          "mp conclave",
+          "समृद्ध मध्यप्रदेश 2047",
+          "samriddh madhya pradesh 2047",
+          "cm mohan yadav",
+          "कुशाभाऊ ठाकरे कन्वेंशन सेंटर",
+          "मध्यप्रदेश",
+          "bhopal news",
+          "central funded institutions",
+          "भोपाल कॉन्क्लेव",
+          "mp government"
+        ],
+        "creator": [
+          "khabar digital desk"
+        ],
+        "language": "hindi",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "politics",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 16:32:52",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 16:55:29",
+        "image_url": "https://khabardigital.com/wp-content/uploads/2026/08/cm-mohan-yadav-2026-1.jpg",
+        "video_url": null,
+        "source_id": "khabardigital",
+        "source_name": "Khabar Digital",
+        "source_priority": 5619259,
+        "source_url": "https://khabardigital.com",
+        "source_icon": "https://n.bytvi.com/khabardigital.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "ef125a7e25c61b4bf798667b751a6f68",
+        "link": "https://udaipurkiran.com/national-teacher-awards-pushpa-prasad-from-bihar-and-shailendra-pratap-singh-from-madhya-pradesh-selected/",
+        "title": "National Teacher Awards: Pushpa Prasad from Bihar and Shailendra Pratap Singh from Madhya Pradesh Selected",
+        "description": "New Delhi, August 22: Pushpa Prasad, a teacher from Kuchaykot in Gopalganj, Bihar, has been selected for the National Teacher Award. She will be honored by the President of India, Droupadi Murmu, on September 5, Teacher’s Day. Shailendra Pratap Singh from Sidhi, Madhya Pradesh, has also been chosen for this prestigious recognition. Valmiki Prasad, the ... Read more National Teacher Awards: Pushpa Prasad from Bihar and Shailendra Pratap Singh from Madhya Pradesh Selected",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "madhya pradesh teacher",
+          "education",
+          "education recognition",
+          "teacher awards",
+          "bihar teacher"
+        ],
+        "creator": [
+          "bhupendra singh chundawat"
+        ],
+        "language": "english",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "top",
+          "lifestyle"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 16:30:28",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 21:53:04",
+        "image_url": "https://udaipurkiran.com/wp-content/uploads/2026/08/national-teacher-awards-pushpa-prasad-from-bihar-and-shailendra-pratap-singh-from-madhya-pradesh-selected.jpg",
+        "video_url": null,
+        "source_id": "udaipurkiran",
+        "source_name": "Udaipur Kiran",
+        "source_priority": 967162,
+        "source_url": "https://udaipurkiran.com",
+        "source_icon": "https://n.bytvi.com/udaipurkiran.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "60b317a319550eea84c4d6f06f2a0982",
+        "link": "https://www.inhnews.in/news/miscreants-attacked-and-robbed-an-elderly-man-while-he-was-asleep-in-bhopal",
+        "title": "BHOPAL NEWS : भोपाल में सो रहे बुजुर्ग को बदमाशों ने बनाया निशाना, मोबाइल और नकदी लूटी, घटना CCTV कैमरे में कैद",
+        "description": "भोपाल: राजधानी भोपाल में सड़क किनारे सो रहे एक बुजुर्ग के साथ लूट और मारपीट का मामला सामने आया है। घटना खजुरी सड़क थाना क्षेत्र की है। जहां 2 बदमाशों ने घटना को अंजाम दिया। इतना ही नहीं घटना का सीसीटीवी फुटेज भी सामने आया है। जिसके आधार पर पुलिस आगे की कार्रवाई कर रही है। 2 बदमाशों ने दिया वारदात को दिया अंजाम जानकारी के अनुसार बुजुर्ग एक दुकान के पास बेंच पर सो रहा था। इसी दौरान 2 बदमाश वहां पहुंचे और पहले बुजुर्ग का मोबाइल छीना। इसके बाद उनके साथ मारपीट कर नकदी भी लूट लिए और फरार हो गए। जिसकी शिकायत बुजुर्ग ने पुलिस से कर मदद की गुहार लगाई। लूट का लाइव सीसीटीवी आया सामने सीसीटीवी कैमरे में कैद घटना में साफ दिखाई दे रहा है कि बुजुर्ग दुकान के पास रखी बेंच पर सो रहे थे। इसी दौरान दो बदमाश वहां पहुंचे। एक आरोपी के हाथ में चाकू था, जबकि दूसरे ने बुजुर्ग को धमकाते हुए उनके पास मौजूद सामान निकालने के लिए कहा। बुजुर्ग दोनों बदमाशों से उन्हें छोड़ने की गुहार लगाते रहे और कहते रहे कि उनके पास पैसे नहीं हैं। इसके बावजूद बदमाशों ने उनके साथ मारपीट की और जेब से नकदी निकाल ली। इसके बाद उनका मोबाइल फोन भी छीन लिया और दोनों मौके से फरार हो गए। आरोपियों की तलाश शुरू इधर, घटना का वीडियो सामने आने के बाद पुलिस मामले की जानकारी जुटा रही है। कार्रवाई तेज कर दी और CCTV के आधार पर आरोपियों की तलाश हर जगहे की जा रही है।",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "राज्य"
+        ],
+        "creator": [
+          "inh news"
+        ],
+        "language": "hindi",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "crime",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 16:01:17",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 16:18:35",
+        "image_url": "https://www.inhnews.in/upload/news/639230310771488373.jpg?w=1200",
+        "video_url": null,
+        "source_id": "inhnews_in",
+        "source_name": "Inh News",
+        "source_priority": 856580,
+        "source_url": "https://www.inhnews.in",
+        "source_icon": "https://n.bytvi.com/inhnews_in.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "714bf16794ae4ca1620e9fe5e06f3db7",
+        "link": "https://bansalnews.com/madhya-pradesh/bhopal/chandrashekhar-tiwari-and-ti-rajan-singh-video-bhopal-hindi-news-rkg-12416498",
+        "title": "Bhopal viral video: भोपाल में हिंदू उत्सव समिति के अध्यक्ष चंद्रशेखर तिवारी और TI राजन सिंह की बहस, कांग्रेस विधायक आरिफ मसूद के दबाव में कार्रवाई नहीं करने का आरोप",
+        "description": "Chandrashekhar Tiwari TI Rajan Singh Vivad: भोपाल के जहांगीराबाद थाने में हिंदू उत्सव समिति के अध्यक्ष चंद्रशेखर तिवारी और टीआई राजन सिंह के बीच तीखी नोकझोंक का वीडियो सोशल मीडिया में जमकर वायरल हो रहा है। वायरल वीडियो इस वीडियो में हिंदू उत्सव समिति के अध्यक्ष चंद्रशेखर तिवारी, टीआई राजन सिंह पर बरसते हुए कांग्रेस विधायक के दबाव में कार्रवाई नहीं करने का आरोप लगाते नजर आ रहे हैं। (खबर अपडेट हो रही है)",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "लेटेस्ट न्यूज",
+          "मध्यप्रदेश",
+          "भोपाल"
+        ],
+        "creator": [
+          "rahul garhwal"
+        ],
+        "language": "hindi",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "politics",
+          "top"
+        ],
+        "datatype": "news",
+        "pubDate": "2026-08-22 15:44:58",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 15:48:12",
+        "image_url": "https://img-cdn.publive.online/fit-in/1280x960/bansal-news/media/media_files/2026/08/22/chandrashekhar-tiwari-and-ti-rajan-singh-video-bhopal-hindi-news-2026-08-22-21-14-42.jpg",
+        "video_url": null,
+        "source_id": "bansalnews",
+        "source_name": "Bansal News",
+        "source_priority": 699256,
+        "source_url": "https://bansalnews.com",
+        "source_icon": "https://n.bytvi.com/bansalnews.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "bcd2a5a31029708871dc25d1db3e473b",
+        "link": "https://www.bhopalsamachar.com/2026/08/dps-bhopal-class-9-student-suicide-case.html",
+        "title": "DPS BHOPAL अंडर इन्वेस्टिगेशन: भोपाल में कक्षा 9 की छात्रा के सुसाइड का मामला",
+        "description": "भोपाल, 22 अगस्त 2026: राजधानी का सबसे प्रतिष्ठित दिल्ली पब्लिक स्कूल जांच के दायरे में है। कक्षा 9 की एक छात्रा ने सुसाइड कर लिया है। पुलिस इन्वेस्टिगेट कर रही है कि क्या वह सुसाइड वाले दिन DPS की स्टूडेंट थी? परिवार वालों का कहना है कि वह DPS की स्टूडेंट थी जबकि DPS मैनेजमेंट का कहना है कि हमने 2 महीने पहले ही उसको TC दे दी थी। छात्र का नाम योगिता चौहान था। पुलिस रिकॉर्ड में उम्र 15 वर्ष लिखी गई है। मामला रातीबड़ थाना क्षेत्र का है और छात्र की डेड बॉडी सूरज नगर के पीछे बड़े तालाब में मिली है। कोई सुसाइड नोट नहीं मिला है लेकिन पास के पेड़ की डाल पर दुपट्टा और नीचे एक चप्पल मिली है। इसके अलावा जो कहानी सामने आई है उसके हिसाब से, पुलिस ही मन कर चल रही है कि मामला आत्महत्या का है। परिवार वालों ने पुलिस को बताया कि वह DPS की छात्रा थी। पिछले 2 महीने से स्कूल नहीं जा रही थी। उसने अपने घर में बताया था कि उसके क्लास टीचर का एक्सीडेंट हो गया है। उसके परिवार में उसकी मां, दादी और चाचा हैं। 2021 में एक रोड एक्सीडेंट में उसके पिता की मौत हो गई थी, मतलब उसके चाचा ही उसके गार्जियन हैं। गुरुवार को परिजनों ने स्कूल जाने के लिए दबाव बनाया तो वह दादी को पेन खरीदने भेजकर, घर से निकल गई। देर तक वापस नहीं आने पर रातीबड़ थाने में गुमशुदगी दर्ज कराई। दूसरे दिन शुक्रवार को उसकी डेड बॉडी मिली। अब पुलिस के सामने सवाल है कि, स्कूल में ऐसा क्या हुआ था जो पिछले दो महीने से वह स्कूल नहीं जा रही थी और जब परिवार वालों ने स्कूल जाने के लिए प्रेशर किया तो उसने सुसाइड कर लिया? इस सवाल के जवाब की तलाश में जब पुलिस ने DPS मैनेजमेंट से बात की तो उन्होंने पुलिस को बताया। करीब दो महीने पहले योगिता अपने चाचा के साथ स्कूल आई थी। टीसी लेकर सरकारी स्कूल में दाखिला लेने की बात कही थी। उसके बाद टीसी दे दी गई थी। इसका मतलब हुआ की घटना वाले दिन योगिता चौहान DPS की स्टूडेंट नहीं थी, लेकिन योग्यता के चाचा ने स्कूल मैनेजमेंट के इस दावे का खंडन किया है। उनका कहना है कि उन्होंने स्कूल से कोई टीसी नहीं ली। पुलिस दोनों बयानों की जांच कर रही है। मौत के कारणों की जांच के लिए स्कूल, परिजन और अन्य पहलुओं की पड़ताल कर रही है।",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "keywords": [
+          "crime",
+          "bhopal"
+        ],
+        "creator": [
+          "updesh awasthee"
+        ],
+        "language": "hindi",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "crime",
+          "top"
+        ],
+        "datatype": "blog",
+        "pubDate": "2026-08-22 15:22:15",
+        "pubDateTZ": "UTC",
+        "fetched_at": "2026-08-22 15:52:21",
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUg57BlN-KN_RNmsxt0wUFAv14bOQx1nf135GlWqGQkdfOHikoA4U8rE7kjoN5FVjC29QqJgo8oqWts62m5e0RwLaTCpBeZg25SGcdDoKpzPD4m0Xt1QEE11LowNiBPBHAJYYnMt6MSDFUVwlkynwsefj1AqmPlQAYd-8oT9WPAFeCv8XVVzkia-5X05k/s72-c/bhopal%20-%202026-08-22T205122.709.webp",
+        "video_url": null,
+        "source_id": "bhopalsamachar",
+        "source_name": "Bhopal Samachar",
+        "source_priority": 2476680,
+        "source_url": "http://www.bhopalsamachar.com",
+        "source_icon": "https://n.bytvi.com/bhopalsamachar.png",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_summary": "ONLY AVAILABLE IN PAID PLANS",
+        "duplicate": false
+      }
+    ],
+    "nextPage": "1787412135974160949"
+  }
+}

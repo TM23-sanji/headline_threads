@@ -1,0 +1,148 @@
+{
+  "captured_at": "2026-08-23T09:01:27.227457+00:00",
+  "endpoint": "https://newsapi.org/v2/everything",
+  "params": {
+    "q": "Bhopal OR \"Madhya Pradesh\"",
+    "searchIn": "title",
+    "language": "en",
+    "sortBy": "publishedAt",
+    "pageSize": 10,
+    "apiKey": "***REDACTED***"
+  },
+  "payload": {
+    "status": "ok",
+    "totalResults": 75,
+    "articles": [
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "ET Online",
+        "title": "ET World Leaders Forum 2026: Madhya Pradesh now promises business land within 29 days, says Mohan Yadav",
+        "description": "Madhya Pradesh has abolished over 900 hindering laws and offers land within 29 days.  The state has attracted investments worth ten lakh crore rupees for ongoing projects.  Exports are expanding from 37 districts, with further efforts underway for all 55.  Cl…",
+        "url": "https://economictimes.indiatimes.com/news/india/et-world-leaders-forum-2026-madhya-pradesh-now-promises-business-land-within-29-days-says-mohan-yadav/articleshow/133419548.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-133419625,width-1200,height-630,imgsize-135920,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-22T07:10:36Z",
+        "content": "Madhya Pradesh is making land available for business purposes within 29 days and has abolished more than 900 laws that were hindering businesses, Chief Minister Mohan Yadav said at the Economic Times… [+2740 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "TNN",
+        "title": "IMD alert heavy rainfall alert for Bhopal, other MP dists",
+        "description": "IMD issues heavy rain alert for Bhopal and Madhya Pradesh; very heavy rainfall warned in five districts, with thunderstorms, lightning and gusty winds elsewhere.",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/imd-alert-heavy-rainfall-alert-for-bhopal-other-mp-dists/articleshow/133413389.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133413388,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-21T19:46:41Z",
+        "content": "Follow Us On Social Media\r\nGMERS Gotri to boost research capabilities, train faculty at govt medical collegesSecurity guard, youth stabbed in separate incidentsAirport Land Monetisation Plan Gains Pa… [+1138 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "The Times Of India",
+        "title": "Bhopal milk procurement rises 38% on better farmer returns",
+        "description": "Bhopal Milk Union milk procurement rises 30% to 10.5 lakh kg/day as higher farmer prices, timely payments and new collection infrastructure boost supply.",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/bhopal-milk-procurement-rises-38-on-better-farmer-returns/articleshow/133384080.cms",
+        "urlToImage": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+        "publishedAt": "2026-08-20T17:04:10Z",
+        "content": "Follow Us On Social Media\r\nCopyright © 2026 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "The Times Of India",
+        "title": "New Gamma Knife at AIIMS Bhopal to offer painless brain treatment locally",
+        "description": "AIIMS Bhopal to get Gamma Knife radiosurgery facility after PAC approval; ₹45 crore Swedish system to offer non-invasive brain tumour treatment within a year.",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/new-gamma-knife-at-aiims-bhopal-to-offer-painless-brain-treatment-locally/articleshow/133384010.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133384008,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-20T17:00:31Z",
+        "content": "Follow Us On Social Media\r\nCopyright © 2026 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "TNN",
+        "title": "15-year-old girl complains of ear pain, doctors find scorpion inside in Madhya Pradesh",
+        "description": "A teenage girl suffered from severe ear pain on her way home, only to find out that a small scorpion was stuck in her left ear. This unusual incident likely happened when she was gathering grass for the cattle. Thankfully, the doctor successfully extracted th…",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/15-year-old-girl-complains-of-ear-pain-doctors-find-scorpion-inside-in-madhya-pradesh/articleshow/133361859.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133361859,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-20T02:26:30Z",
+        "content": "Follow Us On Social Media\r\nFortnite Chapter 7 Season 4 update release timings for all regionsWill hold retest of 3 subjects of UGC-NET: GovtMistaken for intruders: Reporters, military personnel held … [+1506 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "The Times Of India",
+        "title": "Traders stage sit-in against BMC licence fee in Bhopal",
+        "description": "Bhopal traders stage sit-in at BMC office, demanding withdrawal of commercial license fee, citing it is charged only in Bhopal and not other MP cities.",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/traders-stage-sit-in-against-bmc-licence-fee-in-bhopal/articleshow/133358210.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133358209,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-19T19:13:12Z",
+        "content": "Follow Us On Social Media\r\nRahul will interact with girl students on paper leak, womens safety, employment in Pune: CongressE Kol school shut day after snakebite, student safeSMC officer flags civic … [+1087 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "The Times Of India",
+        "title": "Commercial licence fee abolition approved; hawkers corner e-tender proposal stalled in Bhopal",
+        "description": "Bhopal Municipal Corporation council approves abolishing commercial license fees for traders; Hawkers Corner e-tendering stalled; vacant buildings rental okayed.",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/commercial-licence-fee-abolition-approved-hawkers-corner-e-tender-proposal-stalled-in-bhopal/articleshow/133358137.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133358136,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-19T19:06:59Z",
+        "content": "Follow Us On Social Media\r\nRahul will interact with girl students on paper leak, womens safety, employment in Pune: CongressE Kol school shut day after snakebite, student safeSMC officer flags civic … [+1087 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "TNN",
+        "title": "Drunk SUV driver kills man, injures toddler in Bhopal",
+        "description": "Drunk SUV driver hits stationary scooter in Bhopal’s Kolar, killing 35-year-old father and critically injuring son; driver nabbed, FIR filed, vehicle seized.",
+        "url": "https://timesofindia.indiatimes.com/city/bhopal/drunk-suv-driver-kills-man-injures-toddler-in-bhopal/articleshow/133357141.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133350584,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-19T18:24:11Z",
+        "content": "Follow Us On Social Media\r\nCopyright © 2026 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Keshav Agarwal",
+        "title": "5 Madhya Pradesh accident victims brought home to Kheri village",
+        "description": "Five Bhind road accident victims were cremated in Bela Tursia village, Kheri; UP CM Yogi Adityanath announced Rs 2 lakh aid per bereaved family.",
+        "url": "https://timesofindia.indiatimes.com/city/bareilly/5-madhya-pradesh-accident-victims-brought-home-to-kheri-village/articleshow/133354543.cms",
+        "urlToImage": "https://static.toiimg.com/thumb/msid-133354539,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-19T17:02:25Z",
+        "content": "Follow Us On Social Media\r\nCopyright © 2026 Bennett, Coleman &amp; Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Livemint"
+        },
+        "author": "Garvit Bhirani",
+        "title": "Madhya Pradesh Ladli Behna Scheme: CM Mohan Yadav disbursed ₹1500 monthly installment; did you receive?—how to check",
+        "description": "Madhya Pradesh CM Mohan Yadav transferred  ₹1,750 to over 1.25 crore beneficiaries under the Ladli Behna scheme, including a  ₹250 Raksha Bandhan gift, to promote women's financial independence. He emphasised the importance of women’s roles in family and soci…",
+        "url": "https://www.livemint.com/money/personal-finance/madhya-pradesh-ladli-behna-scheme-cm-mohan-yadav-disbursed-rs-1500-monthly-installment-did-you-receive-how-to-check-11787149037163.html",
+        "urlToImage": "https://www.livemint.com/lm-img/img/2026/08/19/1600x900/logo/ANI-20260818073-0_1787152946972_1787152955995_eb2c5389-a035-4d6a-a745-2b840eb728a4.jpg",
+        "publishedAt": "2026-08-19T15:46:55Z",
+        "content": "Madhya Pradesh Chief Minister Mohan Yadav transferred the monthly 1,500 instalment under the Ladli Behna scheme to more than 1.25 crore beneficiaries on Wednesday, along with an additional 250 as a R… [+3122 chars]"
+      }
+    ]
+  }
+}
