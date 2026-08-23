@@ -4,6 +4,9 @@ Bhopal/MP news monitor — newspaper-style Bhopal/MP news dashboard with **story
 pulled from three news APIs, normalized, classified by sector, keyworded, and
 grouped into chains so you can follow how a story develops over time.
 
+![The MP Gazette — newspaper edition with sector sections, progress badges and keyword chips](docs/demo.png)
+
+
 ## Stack
 
 - **Frontend:** Next.js 16 + React 19 + Tailwind v4 + Bun
