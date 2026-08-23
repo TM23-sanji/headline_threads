@@ -6,6 +6,16 @@ grouped into chains so you can follow how a story develops over time.
 
 ![The MP Gazette — newspaper edition with sector sections, progress badges and keyword chips](docs/demo.png)
 
+> Full walkthrough: [`docs/demo.mp4`](docs/demo.mp4)
+
+### A chain in the wild
+
+The Bhopal metro story auto-formed a chain from two articles published two
+weeks apart, arriving through different providers. Same thread, two beats,
+both flagged `DELAYED` — matched by shared keywords, not by hand.
+
+![Story chain for the Bhopal metro rail project, showing two beats over 14 days with progress status](docs/metro.png)
+
 
 ## Stack
 
