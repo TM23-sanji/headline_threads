@@ -116,7 +116,9 @@ These shaped the architecture and are worth knowing before changing it.
 Two consequences:
 
 - **History cannot be backfilled, so Neon is the archive.** Any day without an
-  ingest run is permanently lost. Run ingest on a schedule.
+  ingest run is permanently lost. Run ingest on a schedule — and check that it
+  is actually running (see
+  [Troubleshooting](#troubleshooting-the-archive-stops-growing)).
 - **Only ~300–500 characters of text exist per article**, so progress status is
   frequently `unknown`. The UI shows that honestly instead of guessing.
 
@@ -165,6 +167,54 @@ GitHub Actions   →   .github/workflows/ingest.yml (scheduled ingest, every 6h)
   lost on redeploy, which is why event tracking is DB-backed.
 - Provider quotas (~100–200 req/day per provider) are shared across all
   ingest runs. The default 6-hourly schedule uses ~12 calls/day.
+
+### Troubleshooting: the archive stops growing
+
+This has bitten the deployment once already — the schedule silently stopped
+firing, and because no provider supports backfill, every day it stayed broken
+is permanently missing from the archive. Worth checking deliberately rather
+than assuming a quiet news day.
+
+**Ground truth is `archive.latest` from `GET /health`, not the UI.** A sleeping
+frontend cold-starts into a stale-looking page even when ingest is healthy. If
+`archive.latest` is advancing, ingestion is fine.
+
+If it has stalled, open the last `ingest` run in the Actions tab and read the
+status it printed:
+
+| Symptom | Cause |
+|---|---|
+| Fails before curl: `API_URL ... or INGEST_SECRET ... is not configured` | The repo Variable / Secret is missing — see the mix-up below |
+| `HTTP 401` | `INGEST_SECRET` in GitHub no longer matches the value on the Render API service |
+| `HTTP 503` | `INGEST_SECRET` is unset on the Render service itself |
+| `HTTP 000` / timeout | Cold start exceeded the workflow's 180 s budget; usually transient, the retries normally absorb it |
+| No runs listed at all | GitHub never fired the schedule — see below |
+
+**The Variable/Secret mix-up.** `API_URL` must be a repo **Variable**
+(`vars.API_URL`) and `INGEST_SECRET` a repo **Secret** (`secrets.INGEST_SECRET`).
+Adding `API_URL` as a *secret* is the easy mistake: the workflow reads
+`vars.API_URL`, which stays empty, and the run fails its own guard before
+making any request.
+
+**When the schedule never fires at all**, the workflow is fine and GitHub is
+the cause:
+
+- Scheduled workflows only run from the **default branch**. A workflow edited
+  on a feature branch does not take effect until it lands on `main`.
+- Actions **disables cron schedules after 60 days of repo inactivity**. GitHub
+  emails the owner; re-enable from the Actions tab. This is the likeliest
+  explanation for a schedule that worked and then quietly stopped.
+- Cron runs are queued, not guaranteed on the minute, and can slip under load.
+
+Recover with a manual `workflow_dispatch` run, or hit the endpoint directly:
+
+```bash
+curl -X POST -H "X-Ingest-Secret: $INGEST_SECRET" \
+  https://headline-threads-api.onrender.com/api/admin/ingest
+```
+
+Either way the outage window itself cannot be recovered — only the gap's growth
+stops.
 
 ## Known gaps
 
